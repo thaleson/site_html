@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container-pagamento {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-title-pagamento {
+    text-align: center;
+    color: #333;
+}
+
+.payment-options-pagamento {
+    text-align: center;
+}
+
+.payment-button-pagamento {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.payment-button-pagamento:hover {
+    background-color: #45a049;
+}
+
+.payment-success-pagamento {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #4CAF50;
+    font-weight: bold;
+}
